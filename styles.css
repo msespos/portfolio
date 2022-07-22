@@ -1,4 +1,34 @@
-h1 {
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  background-color: purple;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 4px 4px hsl(0deg 0% 0% / 0.28);
+}
+
+.name {
+  margin-top: 80px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: xx-large;
 }
