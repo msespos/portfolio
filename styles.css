@@ -10,8 +10,6 @@ html, body {
 }
 
 .main-container {
-  width: 80%;
-  height: 100%;
   background-color: white;
   height: auto;
   display: flex;
@@ -21,9 +19,14 @@ html, body {
 
 .image-container {
   background-color: purple;
-  padding: 30px;
+  padding: 0px 100px;
   display: flex;
   justify-content: center;
+  box-shadow: 0px 4px 4px hsl(0deg 0% 0% / 0.28);
+}
+
+.mike-head-shot-1 {
+  transform: translateY(50px);
   box-shadow: 0px 4px 4px hsl(0deg 0% 0% / 0.28);
 }
 
