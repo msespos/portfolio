@@ -8,7 +8,6 @@ html, body {
 }
 
 .main-container {
-  background-color: white;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -30,16 +29,23 @@ html, body {
 
 .name {
   margin-top: 80px;
-  font-size: xx-large;
+  font-size: xxx-large;
 }
 
 .about-me-header {
   margin-right: auto;
-  padding: 20px;
-  font-size: 50pt;
+  padding: 30px;
+  font-size: 60pt;
 }
 
 .about-me-blurb {
   width: 75%;
-  font-size: x-large;
+  font-size: xx-large;
+}
+
+.about-me-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0px;
 }
