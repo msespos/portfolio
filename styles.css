@@ -14,7 +14,7 @@ html, body {
   align-items: center;
 }
 
-.image-container {
+.top-image-container {
   background-color: purple;
   padding: 0px 100px;
   display: flex;
@@ -35,7 +35,7 @@ html, body {
 .header {
   margin-right: auto;
   padding: 30px;
-  font-size: 60pt;
+  font-size: 40pt;
 }
 
 .about-me-blurb {
@@ -89,4 +89,22 @@ html, body {
 
 .project-blurb {
   width: 60%;
+}
+
+.contact-me-container {
+  background-color: purple;
+  color: white;
+}
+
+.contact-me-header {
+  font-size: x-large;
+  margin: 20px;
+}
+
+.contact-me-info {
+  margin: 20px;
+}
+
+.-image-container {
+
 }
