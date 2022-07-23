@@ -50,8 +50,42 @@ html, body {
   padding: 20px 0px;
 }
 
+.two-image-container {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
 .project-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 30px 10px;
+}
+
+.project-header {
+  /* border: 4px solid blue; */
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.project-name {
+  /* border: 3px solid red; */
+  font-size: x-large;
+  padding-top: 5px;
+}
+
+.project-icons {
+  /* border: 3px solid red; */
+  display: flex;
+}
+
+.left-project-icon {
+  width: 60%;
+}
+
+.project-blurb {
+  width: 60%;
 }
