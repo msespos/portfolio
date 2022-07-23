@@ -84,6 +84,7 @@ html, body {
 
 .left-project-icon {
   width: 60%;
+  margin-top: 3px;
 }
 
 .project-blurb {
