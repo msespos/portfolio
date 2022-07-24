@@ -26,11 +26,6 @@ html, body {
   }
 }
 
-@media (min-width: 1366px) {
-  .top-image-and-info-container {
-  }
-}
-
 .top-image-container {
   background-color: purple;
   padding: 0px 100px;
@@ -50,11 +45,6 @@ html, body {
 .mike-head-shot-1 {
   transform: translateY(50px);
   box-shadow: 0px 4px 4px hsl(0deg 0% 0% / 0.28);
-}
-
-@media (min-width: 768px) {
-  .mike-head-shot-1 {
-  }
 }
 
 .name {
