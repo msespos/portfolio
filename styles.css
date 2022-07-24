@@ -14,6 +14,23 @@ html, body {
   align-items: center;
 }
 
+.top-image-and-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .top-image-and-info-container {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1366px) {
+  .top-image-and-info-container {
+  }
+}
+
 .top-image-container {
   background-color: purple;
   padding: 0px 100px;
@@ -24,7 +41,9 @@ html, body {
 
 @media (min-width: 768px) {
   .top-image-container {
-    width: 25%;
+    box-shadow: none;
+    margin-bottom: auto;
+    padding: 0px 40px;
   }
 }
 
@@ -33,12 +52,45 @@ html, body {
   box-shadow: 0px 4px 4px hsl(0deg 0% 0% / 0.28);
 }
 
+@media (min-width: 768px) {
+  .mike-head-shot-1 {
+  }
+}
+
 .name {
   margin-top: 80px;
   font-size: xxx-large;
 }
 
-.header {
+@media (min-width: 768px) {
+  .name {
+    color: white;
+    background-color: purple;
+    padding: 20px;
+  }
+}
+
+.about-me-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .about-me-info {
+    box-shadow: 0px 4px 4px hsl(0deg 0% 0% / 0.28);
+  }
+}
+
+@media (min-width: 768px) {
+  .about-me-header-and-blurb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.about-me-header {
   padding: 30px 0px 20px;
   font-size: xx-large;
 }
@@ -55,10 +107,23 @@ html, body {
   padding: 20px 0px;
 }
 
+@media (min-width: 768px) {
+  .about-me-icons {
+    visibility: hidden;
+  }
+}
+
 .two-image-container {
   display: flex;
   justify-content: center;
   gap: 5px;
+}
+
+.projects-header {
+  padding: 30px 0px 20px;
+  margin-right: auto;
+  margin-left: 60px;
+  font-size: xx-large;
 }
 
 @media (min-width: 768px) {
@@ -97,7 +162,7 @@ html, body {
 .project-header {
   width: 80%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 10px;
 }
 
@@ -159,7 +224,7 @@ html, body {
   display: flex;
   justify-content: center;
   gap: 30px;
-  padding: 20px 0px;
+  padding: 0px 0px 40px;
 }
 
 @media (min-width: 768px) {
