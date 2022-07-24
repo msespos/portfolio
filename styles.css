@@ -102,19 +102,6 @@ html, body {
   gap: 5px;
 }
 
-.projects-header {
-  margin: 0px auto 20px 100px;
-  margin-right: auto;
-  margin-left: 60px;
-  font-size: xx-large;
-}
-
-@media (min-width: 768px) {
-  .projects-header {
-    margin-top: 60px;
-  }
-}
-
 @media (min-width: 768px) {
   .two-projects-outer-container {
     display: flex;
@@ -123,11 +110,12 @@ html, body {
     margin: 40px 30px;
   }
 }
+
 .project-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px 10px 40px;
+  margin: 40px 10px;
 }
 
 @media (min-width: 768px) {
