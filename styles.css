@@ -208,8 +208,20 @@ html, body {
   padding: 40px 40px 0px 40px;
 }
 
+@media (min-width: 1366px) {
+  .contact-me-header {
+    font-size: xx-large
+  }
+}
+
 .contact-me-info {
   margin: 40px;
+}
+
+@media (min-width: 1366px) {
+  .contact-me-info {
+    font-size: x-large
+  }
 }
 
 @media (min-width: 768px) {
