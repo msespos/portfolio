@@ -67,6 +67,7 @@ html, body {
     color: white;
     background-color: purple;
     padding: 20px;
+    margin-top: 20px;
   }
 }
 
@@ -82,12 +83,10 @@ html, body {
   }
 }
 
-@media (min-width: 768px) {
-  .about-me-header-and-blurb {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.about-me-header-and-blurb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-me-header {
@@ -107,12 +106,6 @@ html, body {
   padding: 20px 0px;
 }
 
-@media (min-width: 768px) {
-  .about-me-icons {
-    visibility: hidden;
-  }
-}
-
 .two-image-container {
   display: flex;
   justify-content: center;
@@ -124,6 +117,12 @@ html, body {
   margin-right: auto;
   margin-left: 60px;
   font-size: xx-large;
+}
+
+@media (min-width: 768px) {
+  .projects-header {
+    margin: 60px auto 20px 100px;
+  }
 }
 
 @media (min-width: 768px) {
