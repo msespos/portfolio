@@ -99,6 +99,7 @@ html, body {
 .two-image-container {
   display: flex;
   justify-content: center;
+  gap: 5px;
 }
 
 @media (min-width: 768px) {
