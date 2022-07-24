@@ -118,14 +118,16 @@ html, body {
 @media (min-width: 768px) {
   .two-projects-outer-container {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-items: top;
+    margin: 40px 30px;
   }
 }
 .project-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px 30px 40px;
+  margin: 20px 10px 40px;
 }
 
 @media (min-width: 768px) {
