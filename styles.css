@@ -213,10 +213,20 @@ html, body {
   }
 }
 
+.contact-me-head-shot-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mike-head-shot-2 {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .mike-head-shot-2 {
     align-self: center;
-    margin: 40px;
+    margin: 80px;
+    width: 50%;
   }
 }
 
