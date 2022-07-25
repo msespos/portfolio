@@ -160,6 +160,13 @@ html, body {
   width: 80%;
 }
 
+@media (max-width: 768px) {
+  .project-hider {
+    visibility: hidden;
+    height: 0px;
+  }
+}
+
 @media (min-width: 768px) {
   .contact-me-and-head-shot-2 {
     display: flex;
