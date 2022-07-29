@@ -102,9 +102,8 @@ html, body {
 @media (min-width: 768px) {
   .two-projects-outer-container {
     display: flex;
-    justify-content: center;
     align-items: top;
-    margin: 20px 30px;
+    margin: 60px 30px 40px;
   }
 }
 
@@ -118,6 +117,21 @@ html, body {
 @media (min-width: 768px) {
   .project-container {
     width: 50%;
+  }
+}
+
+.project-container-hid-on-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 10px;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .project-container-hid-on-mobile {
+    display: none;
+    height: 0px;
   }
 }
 
@@ -160,17 +174,34 @@ html, body {
   width: 80%;
 }
 
-@media (max-width: 768px) {
-  .project-hider {
-    visibility: hidden;
-    height: 0px;
-  }
-}
-
 @media (min-width: 768px) {
   .contact-me-and-head-shot-2 {
     display: flex;
     background-color: purple;
+  }
+}
+
+.contact-me-head-shot-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mike-head-shot-2 {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .mike-head-shot-2 {
+    align-self: center;
+    width: 75%;
+    margin: 80px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .mike-head-shot-2 {
+    width: 50%;
+    margin: 80px 150px 80px;
   }
 }
 
@@ -184,6 +215,12 @@ html, body {
   .contact-me-container {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (min-width: 1366px) {
+  .contact-me-container {
+    margin-left: 150px;
   }
 }
 
@@ -210,23 +247,6 @@ html, body {
 @media (min-width: 1366px) {
   .contact-me-info {
     font-size: x-large
-  }
-}
-
-.contact-me-head-shot-2 {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.mike-head-shot-2 {
-  width: 100%;
-}
-
-@media (min-width: 768px) {
-  .mike-head-shot-2 {
-    align-self: center;
-    margin: 80px;
-    width: 75%;
   }
 }
 
