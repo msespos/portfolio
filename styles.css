@@ -48,6 +48,7 @@ html, body {
 }
 
 .name {
+  text-align: center;
   margin-top: 80px;
   font-size: 40pt;
 }
